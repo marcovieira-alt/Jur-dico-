@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "google-maps": {
+      "command": "npx",
+      "args": ["-y", "@cablate/mcp-google-map", "--stdio"],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "${GOOGLE_MAPS_API_KEY}"
+      }
+    },
+    "google-maps-legacy": {
+      "command": "node",
+      "args": ["node_modules/.bin/mcp-server-google-maps"],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "${GOOGLE_MAPS_API_KEY}"
+      }
+    }
+  }
+}

@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cablate/mcp-google-map": "^0.0.52",
     "@modelcontextprotocol/server-google-maps": "^0.6.2"
   }
 }
